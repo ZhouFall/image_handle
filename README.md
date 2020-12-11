@@ -1,6 +1,6 @@
 # image_handle
 
-#####工程说明
+##### 工程说明
 1. 将从网易云下载下来的1000张图片进行拼接
 2. 排版设想是30*30，总共使用900张图片，去掉多余的图片
 3. 一开始计划直接排成指定形状，不过没找到现成的方法，转变思路，改为先拼接成一个正方体，再加一个mask
@@ -12,7 +12,7 @@
 8. image3和merge.png合并效果不太好，于是释放大招，使用图像编辑器把中间给扣空了，参照output/white图片
 9. 合并采用了两种方式，一种是跟mask相与，另一种是加权叠加，结果分别是cv2_merge 和pil_merge
 ***
-#####参考链接
+##### 参考链接
 1. https://blog.csdn.net/ngsb153/article/details/105707492 opencv-python 将图片批量压缩为指定的尺寸
 2. https://blog.csdn.net/dream_people/article/details/83372354 如何用python取图片轮廓
 3. https://blog.csdn.net/septwolves2015/article/details/97896681?utm_medium=distribute.pc_relevant.none-task-blog-baidulandingword-3&spm=1001.2101.3001.4242 \
